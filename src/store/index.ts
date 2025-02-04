@@ -6,3 +6,5 @@ export const store = configureStore({
     carrinho: carrinhoReducer
   }
 })
+
+export type RootReducer = ReturnType<typeof store.getState>

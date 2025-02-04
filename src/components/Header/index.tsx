@@ -3,7 +3,7 @@ import { useSelector } from 'react-redux'
 import * as S from './styles'
 import cesta from '../../assets/cesta.png'
 import { paraReal } from '../Produto'
-import { RootReducer } from '../..'
+import { RootReducer } from '../../store'
 
 const Header = () => {
   const itens = useSelector((state: RootReducer) => state.carrinho.itens)
